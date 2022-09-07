@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iframes</title>
+    </head>
+
+    <body>
+        <!-- Iframes -->
+        <h1>Iframes</h1>
+
+        <!-- Página dentro do meu próprio projeto -->
+        <iframe src="./pages/soneto_de_fidelidade.html" 
+                width="400" 
+                height="500" 
+                title="Poema - Soneto de Fidelidade">
+        </iframe>
+        
+        <!-- Fontes externas -->
+        <iframe src="https://www.meutimao.com.br/" 
+                width="400" height="500" 
+                title="Portal - Meu Timão">
+        </iframe>
+
+        <iframe src="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" 
+                width="400" 
+                height="500" 
+                title="Site - Wikipedia">
+        </iframe>
+    
+        <!-- Fontes externas: vídeo do youtube -->
+        <iframe width="400" 
+                height="500" 
+                src="https://www.youtube.com/embed/O1BQPq7UBPQ" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+
+        <br><br><br><hr><br><br>
+
+        <!-- Abrindo um iframe a partir de um link -->
+        <a href="./pages/soneto_de_fidelidade.html" target="soneto">Abrir poema - Soneto de Fidelidade!</a>
+        <br><br>
+        <iframe width="400" height="500" name="soneto" frameborder="1"></iframe>
+    </body>
+</html>

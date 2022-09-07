@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+
+    <body>
+        <!-- Formulários -->
+        <h1>Formulários</h1>
+
+        <form action="#">
+            <div>
+                <label for="nome">Nome: </label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="sobrenome">Sobrenome: </label><br>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome aqui" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">E-mail: </label><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu email aqui" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="senha">Senha: </label><br>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui" required>
+            </div>
+
+            <br>
+
+            <h3>Animal de estimação:</h3>
+
+            <div>
+                <input type="radio" name="animal" id="cachorro" value="cachorro">
+                <label for="cachorro">Cachorro</label>
+                
+                <br><br>
+
+                <input type="radio" name="animal" id="gato" value="gato">
+                <label for="gato">Gato</label>
+            </div>
+
+            <br>
+
+            <h3>O que você tem em casa?</h3>
+
+            <input type="checkbox" name="tv" id="tv" value="tv">
+            <label for="tv">TV</label><br><br>
+
+            <input type="checkbox" name="geladeira" id="geladeira" value="geladeira">
+            <label>Geladeira</label><br><br>
+
+            <input type="checkbox" name="microondas" id="microondas" value="microondas">
+            <label>Micro-ondas</label><br>
+
+            <br>
+
+            <h3>Selecione uma cor:</h3>
+
+            <select name="cor" id="cor">
+                <option value="" disabled selected>Selecione uma cor</option>
+                <option value="vermelho">Vermelho</option>
+                <option value="azul">Azul</option>
+                <option value="amarelo">Amarelo</option>
+                <option value="verde">Verde</option>
+            </select>
+
+            <br><br>
+
+            <h3>Digite sua mensagem:</h3>
+
+            <textarea name="mensagem" id="mensagem" cols="50" rows="20" placeholder="Digite sua mensagem aqui"></textarea>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar">
+
+            <br>
+            <br>
+
+            <button>Enviar dados</button>
+        </form>
+    </body>
+</html>
