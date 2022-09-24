@@ -27,7 +27,7 @@
 
 - **O HTML é uma linguagem de marcação porque trabalha com rótulos (tags);**
 
-- **Elemento HTML: **
+- **Elemento HTML:**
 
   ```html
   <identificador_da_tag>Conteúdo</identificador_da_tag>
